@@ -30,7 +30,7 @@ To test the limits of the EWC "shield," we perform **sequential unlearning**:
 We analyze the effects of unlearning on the model's internal representations:
 1.  **Latent Space (t-SNE) Plot:** We compare the t-SNE plot of the baseline model (showing 10 distinct clusters) to the unlearned models. 
 2.  **Comparison Grid:** We test the **Decoder** by generating images for all 10 classes to visually confirm that the forgotten classes have turned gray.
-3. 
+   
 
 ### Attack the Unlearned Model
 We attempt to generate the forgotten classes from the final, unlearned model. This is done by freezing the model and optimizing its inputs (`z` and `y`).
